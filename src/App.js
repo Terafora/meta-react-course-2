@@ -1,19 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Btn from './components/Btn';
 
-function Header() {
-  return (
-    <h1>皆さんこんにちは！</h1>
-  )
-}
-
-function App() {
-  return (
-    <div clasName="App">
-      <Header />
-      <p>お元気ですか？</p>
-    ></div>
-  )
-}
+function App(){
+  return(
+    <Btn />
+  );
+};
 
 export default App;
